@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/lemonade-command/lemonade/param"
+	"github.com/sharefantasy/lemonade/param"
 	"github.com/skratchdot/open-golang/open"
 )
 

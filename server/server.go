@@ -7,8 +7,8 @@ import (
 
 	log "github.com/inconshreveable/log15"
 
-	"github.com/lemonade-command/lemonade/lemon"
 	"github.com/pocke/go-iprange"
+	"github.com/sharefantasy/lemonade/lemon"
 )
 
 var connCh = make(chan net.Conn, 1)
