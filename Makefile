@@ -18,3 +18,7 @@ release:
 clean:
 	rm -rf dist/
 	rm -f pkg/*.tar.gz pkg/*.zip
+
+update:
+	go get -u .
+	go mod tidy
